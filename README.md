@@ -1,26 +1,9 @@
-# Taquito React template
+# NFT Art Map
 
-![Built with Taquito][logo]
+We've created an interactive UI mockup for the web app and mobile versions.
 
-A minimal React setup for starting developing Tezos DApps quickly with Taquito.
+We've built a working prototype of the web app, where users can login with their real Tezos-compatible wallet, see a few placeholder NFT artworks, as well as adding new location-based images that will then be displayed on the map.
 
-## Getting Started
+We've been working with the Tezos Berlin team to implement the smart contract logic that will allow for the minting of NFTs directly from the map, as well as the retrieval of the user's collected artworks.
 
-1. Make sure you have https://nodejs.org/ installed on your computer
-2. Create a new repository from taquito-boilerplate by clicking "Use this template".
-3. Clone your new repository:
-
-   `git clone <YOUR_REPOSITORY_URL>`
-
-3. Change your current working directory to the newly cloned repository directory.
-4. Install dependencies:
-
-   `npm install`
-
-5. Start development server:
-
-   `npm run start`
-
-6. Open https://localhost:3000 in your browser to see a sample application.
-
-[logo]: https://raw.githubusercontent.com/ecadlabs/taquito-boilerplate/master/assets/built-with-taquito.png "Built with Taquito"
+See our backlog/roadmap in the project submission for more on the features we're currently working to implement.
