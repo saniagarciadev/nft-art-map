@@ -17,14 +17,17 @@ body,
 }
 
 .title {
+  position: fixed;
+  z-index: 3;
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
+  align-items: flex-end;
 }
 
 h1 {
-  color: #35636e;
+  color: white;
   text-align: left;
 }
 
@@ -35,10 +38,39 @@ header {
   color: white;
 }
 
+.dialog-container {
+  position: fixed;
+  z-index: 1;
+    height: 100vh;
+    width: 100vw;
+    padding: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dialog {
+  position: relative;
+  z-index: 2;
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dialog-backdrop {
+  position: absolute;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.338);
+}
+
 #dialog {
   display: flex;
   flex-direction: column;
-  width: 500px;
   border: 1px solid #35636e;
   border-radius: 3px;
 }
