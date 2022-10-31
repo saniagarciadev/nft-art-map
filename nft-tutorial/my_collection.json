@@ -1,0 +1,20 @@
+
+{
+  "name": "my_collection",
+  "description": "The best collection",
+  "version": "1.0.0",
+  "license": {
+    "name": "MIT"
+  },
+  "interfaces": [
+    "TZIP-016",
+    "TZIP-012",
+    "TZIP-021"
+  ],
+  "source": {
+    "tools": [
+      "LIGO"
+    ],
+    "location": "https://github.com/oxheadalpha/nft-tutorial"
+  }
+}
